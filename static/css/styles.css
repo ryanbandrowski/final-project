@@ -17,7 +17,7 @@ body {
   /* Visual */
   background-color: #f8d790;
 
-  background: url(https://t3.ftcdn.net/jpg/01/19/20/52/240_F_119205260_8sJlQkBgp64bUOvDXHvrOvLgvZ9HbeyZ.jpg);
+  background: url(https://static3.depositphotos.com/1007307/228/i/950/depositphotos_2285730-stock-photo-grapevine-border-with-pink-grapes.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -30,6 +30,7 @@ body {
   body {
     /* Visual */
     background-color: #fff;
+    
   }
 }
 
@@ -37,12 +38,13 @@ body {
 
 /* ----NAV START---- */
 .navbar-custom {
-  background-color: rgb(235, 187, 115);
+  background-color: rgb(248, 246, 244);
+  background: url(https://images.theconversation.com/files/67872/original/image-20141221-31560-ogavyx.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);
 
     /* Typography */
     font-size: 24px;
     font-weight: bold;
-    color: rgba(8, 6, 6, 0.692);
+    color: rgba(15, 14, 14, 0.692);
 }
 
 #logo {
@@ -61,7 +63,7 @@ body {
   color: rgb(8, 8, 8);
 
   /* Visual */
-  background: #db9538;
+  background: #9e3131;
 }
 
 /* Logo hover state */
@@ -77,18 +79,20 @@ body {
 
   /* Typography */
   font-family: Arial;
-  font-weight: lighter;
+  font-weight: bold;
+  color: rgb(3, 2, 2)
+
 }
 
 /* Nav element hover state */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #050706;
 }
 
 /* Media query for nav */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #050707;
   }
 
   #logo {
@@ -106,7 +110,7 @@ body {
     /* Typography */
     font-size: 24px;
     font-weight: bold;
-    color: #fff;
+    color: rgb(5, 4, 4);
 
     /* Visual */
     background: #4aaaa5;
@@ -124,7 +128,7 @@ body {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #050707;
 }
 
 .description-content {
@@ -136,6 +140,7 @@ body {
 
   /* Visual */
   background-color: #fff;
+  opacity: 0.9;
 }
 
 .description-content > p {
@@ -145,7 +150,7 @@ body {
   /* Typography */
   font-size: 16px;
   line-height: 30px;
-  color: slategray;
+  color: rgb(4, 6, 7);
 }
 
 .description-text {
@@ -200,7 +205,7 @@ body {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #050808;
 }
 
 .imageNav-photo {
@@ -243,7 +248,7 @@ body {
   /* Typography */
   font-size: 20px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #040707;
   text-align: center;
 }
 
@@ -269,7 +274,7 @@ body {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: rgb(5, 3, 3);
 }
 
 .two-toned-footer-color {
