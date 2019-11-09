@@ -9,10 +9,10 @@
     <title>Wine Analysis</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap.min.css') }}" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="../static/css/styles.css" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/styles.css') }}" media="screen">
 
   </head>
 
@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
               </button>
               <div class="col-xs-9 phone-nav">
-                <a class="navbar-brand" href="index.html" id="logo">Home</a>
+                <a class="navbar-brand" href="/" id="logo">Home</a>
               </div>
             </div>
   
@@ -41,14 +41,14 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wine Tables <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                   <li><a href="Wine_Data_Red.html">Red Wine Table</a></li>
-                   <li><a href="Wine_Data_White.html">White Wine Table</a></li>
-                  </ul>
-                </li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Predictions_Page.html">Predictions</a></li>
-                <li><a href="Visualizations.html">Visualizations</a></li>
-                <li><a href="Recommendations.html">Recommendations</a></li>
+                    <li><a href="/red_wine_data">Red Wine Table</a></li>
+                    <li><a href="/white_wine_data">White Wine Table</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="/about">About</a></li>
+                 <li><a href="/predictions">Predictions</a></li>
+                 <li><a href="/visualizations">Visualizations</a></li>
+                 <li><a href="/recommendations">Recommendations</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
