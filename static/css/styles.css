@@ -63,7 +63,7 @@ body {
   color: rgb(8, 8, 8);
 
   /* Visual */
-  background: #9e3131;
+  background: #e25d5d;
 }
 
 /* Logo hover state */
@@ -92,7 +92,8 @@ body {
 /* Media query for nav */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #050707;
+    background-color: #050707
+    
   }
 
   #logo {
@@ -123,6 +124,7 @@ body {
 .description-header {
   /* Positioning */
   margin-bottom: 33px;
+  box-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
