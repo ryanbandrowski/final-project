@@ -41,7 +41,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wine Tables <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                 <li><a href="/red_wine_data">Red Wine Table</a></li>
+                 <<li><a href="/red_wine_data">Red Wine Table</a></li>
                  <li><a href="/white_wine_data">White Wine Table</a></li>
                 </ul>
               </li>
@@ -56,7 +56,73 @@
     </nav>
     <!-- End of navbar -->
 
+<!-- Start of container -->
+    <div class="container">
+      <article class="description-content row">
+        <div class="col-xs-12">
+          <h1 class="description-header",align="center">Visualization Plots</h1>
+          <hr class="description-hr"/>
+        </div>
+        <div class="col-md-12">
+          <h2 class="comparison-header">Pair Plot</h2>
+          <a href="{{ url_for('static', filename = 'Images/PairPlot.png') }}"> <img src="../static/Images/PairPlot.png" alt="Pair Plot" class="comparison-image img-responsive"></a>
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-12">
+          <h2 class="comparison-header">Heatmap</h2>
+          <a href="{{ url_for('static', filename = 'Images/Heatmap.png') }}"> <img src="../static/Images/Heatmap.png" alt="Heatmap" class="comparison-image img-responsive"></a>
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Citric Acid and pH</h2>
+          <a href="{{ url_for('static', filename = 'Images/Citric_Acid_and_pH.png') }}"></a><img src="../static/Images/Citric_Acid_and_pH.png" alt="Citric Acid and pH" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">pH and Fixed Acidity</h2>
+          <a href="{{ url_for('static', filename = 'Images/pH_and_Fixed_Acidity.png') }}"></a><img src="../static/Images/pH_and_Fixed_Acidity.png" alt="pH and Fixed Acidity" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Fixed Acidity and Citric Acid</h2>
+          <a href="{{ url_for('static', filename = 'Images/Fixed_Acidity_and_Citric_Acid.png') }}"></a><img src="../static/Images/Fixed_Acidity_and_Citric_Acid.png" alt="Fixed Acidity and Citric Acid" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Density and Alcohol</h2>
+          <a href="{{ url_for('static', filename = 'Images/Density_and_Alcohol.png') }}"></a><img src="../static/Images/Density_and_Alcohol.png" alt="Density and Alcohol" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Density and Fixed Acidity</h2>
+          <a href="{{ url_for('static', filename = 'Images/Density_and_Alcohol.png') }}"></a><img src="../static/Images/Density_and_Alcohol.png" alt="Density and Fixed Acidity" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Volatile Acidity and Citric Acid</h2>
+          <a href="{{ url_for('static', filename = 'Images/Volatile_Acidity_and_Citric_Acid.png') }}"></a><img src="../static/Images/Volatile_Acidity_and_Citric_Acid.png" alt="Volatile Acidity and Citric Acid" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Comparison of R2 Score of Algorithms</h2>
+          <a href="{{ url_for('static', filename = 'Images/Comparison_of_R2_Score_of_algorithms.png') }}"></a><img src="../static/Images/Comparison_of_R2_Score_of_algorithms.png" alt="Comparison of R2 Score of Algorithms" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Free Sulfur Dioxide and Total Sulfur Dioxide</h2>
+          <a href="{{ url_for('static', filename = 'Images/Free_Sulfur_Dioxide_and_Total_Sulfur_Dioxide.png') }}"></a><img src="../static/Images/Free_Sulfur_Dioxide_and_Total_Sulfur_Dioxide.png" alt="Free Sulfur Dioxide and Total Sulfur Dioxide" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Wine Quality</h2>
+          <a href="{{ url_for('static', filename = 'Images/WineQuality.png') }}"></a><img src="../static/Images/WineQuality.png" alt="Wine Quality" class="comparison-image img-responsive">
+          <hr class="visible-xs visible-sm">
+        </div>
 
+
+      </article>
+    </div>
+    <!-- End of container  -->
           <!-- jQuery CDN -->
           <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
