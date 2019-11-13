@@ -24,17 +24,14 @@ def white_wine_data():
 def about():
     return render_template("About.html")
 
-@app.route("/predictions")
-def predictions():
-    return render_template("Predictions_Page.html")
+# @app.route("/predictions")
+# def predictions():
+#     return render_template("Predictions_Page.html")
 
 @app.route("/visualizations")
 def visualizations():
     return render_template("Visualizations.html")
 
-@app.route("/recommendations")
-def recommendations():
-    return render_template("Recommendations.html")
 
 if __name__ == "__main__":
     app.run()
